@@ -18,15 +18,40 @@ header {
 
     }
 
+    /*TITULOS*/
+    .tituloUno { 
+        font-family: 'Roboto Slab', serif;
+        font-size: 40px;
+        text-align: center
+
+    }
+
+    .tituloDos { 
+    font-family: 'Roboto Slab', serif;
+    font-size: 35px;
+    text-align: center
+
+    }
+    
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        color: black;
+        font-size: 30px;   
+    }
+
        /*NAVEGACION*/
     .nav-principal {
         background-color: #E6DDC6;        
-        color: #595747;
+        color: black;
         font-size: 18px;
         letter-spacing: 2px;
         word-spacing: 15px;
         padding: 20px;
-        text-align: center;      
+        text-align: center;
+        text-decoration: none;      
     }
 
         /*LISTA NAV*/
@@ -299,32 +324,6 @@ header {
     border-radius: 10px;
 
     }
-
-
-    /*TITULOS*/
-    .tituloUno { 
-        font-family: 'Roboto Slab', serif;
-        font-size: 40px;
-        text-align: center
-
-    }
-
-    .tituloDos { 
-    font-family: 'Roboto Slab', serif;
-    font-size: 35px;
-    text-align: center
-
-    }
-    
-    h1{
-        font-size: 40px;
-    }
-
-    h2{
-        color: black;
-        font-size: 30px;   
-    }
-
 
     /*FORMULARIO*/
     #formulario{ 
