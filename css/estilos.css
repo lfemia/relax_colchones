@@ -80,15 +80,13 @@ header {
 
     .seccionGaleria{
         margin-top: 50px;
-        margin-left: 15px;
-        margin-right: 20px;
         margin-bottom: 70px;
     }
     
     .seccion_imagen_titulo {
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     }
     .seccion_imagenes_h{
     display: block;
