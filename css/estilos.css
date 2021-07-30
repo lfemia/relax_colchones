@@ -4,7 +4,7 @@
   }
 
   body{ 
- background-color: #FBF7F0; 
+ background-color: #eec88c; 
  font-family: 'Roboto', sans-serif, serif;
   }
 
@@ -19,30 +19,40 @@ header {
     }
 
     /*TITULOS*/
+
+    .titulos-nav { 
+        font-family: 'MonteCarlo', cursive;
+        text-align: center;
+        color:black;
+
+    }
     .tituloUno { 
-        font-family: 'Roboto Slab', serif;
-        font-size: 40px;
-        text-align: center
+        font-size: 5em;
 
     }
 
     .tituloDos { 
-    font-family: 'Roboto Slab', serif;
-    font-size: 35px;
-    text-align: center
+
+    font-size: 2em;
 
     }
     
-    h1{
+    /* h1{
         font-size: 40px;
     }
 
     h2{
         color: black;
         font-size: 30px;   
-    }
+    } */
 
        /*NAVEGACION*/
+
+    .text-dark {
+    font-family: 'Roboto', sans-serif, serif;
+    font-size: 3em;
+    font-style: oblique;
+       }
     .nav-principal {
         background-color: #E6DDC6;        
         color: black;
@@ -57,7 +67,7 @@ header {
 
      ul li {
         display: inline-block;
-        color: black;   
+        color: black;
     }
 
 
@@ -73,20 +83,26 @@ header {
     /*ENCABEZADO REDES*/
     #encabezadoRedes { 
         display: block;
+        text-decoration: none;
+        color: black;
 
     }
 
     /*IMAGENES DE INICIO*/
 
     .seccionGaleria{
-        margin-top: 50px;
-        margin-bottom: 70px;
+        margin-top: 20px;
+        margin-bottom: 12em;
     }
     
     .seccion_imagen_titulo {
+    font-family: 'Roboto';
+    margin: 5em;
+    padding: 1em;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+
     }
     .seccion_imagenes_h{
     display: block;
@@ -363,31 +379,36 @@ header {
     }
 
     /*TABLA DE COLCHONES*/
-    #tabla{
-        margin-top: 20%;
-        margin-left: 20%;
-        margin-bottom: 20%;
-
+    .tituloColchones {
+        margin: 1em;
+        padding: 0,1em;
+        font-family: 'Roboto';
+        font-style: bold;
+        -webkit-transition: all 0.5s 0s ease;
+        -moz-transition: all 0.5s 0s ease;
+        -o-transition: all 0.5s 0s ease;
+        transition: all 0.5s 0s ease;
     }
+    
 
-    .textoTabla{ 
-        margin-top: 15px;
-        margin-bottom: 20px;
-        font-style: oblique;
+    .contenedor-colchones{ 
+        margin: 5em;
+        padding: 1em;
+
     }
 
 
 /*PIE DE PÁGINA FOOTER*/
-    footer{
+    .footer-principal{
         background-color: #E6DDC6;
+        margin-top: 15em;
         height: 5em;
         clear: both;
         letter-spacing: 2px;
         word-spacing: 15px;
         text-align: center;
-        position: relative;
     }
-    .contactonegro{
+    .footer-contactonegro{
         color: black;
     
     }
@@ -405,7 +426,7 @@ display: grid;
 background-color: #E6DDC6;
 grid-template-columns: auto auto auto;
 align-content: center;
-padding: 10px;
+padding: 1em;
 
 }
 
@@ -422,7 +443,9 @@ display: block;
 font-size: 12px;
 letter-spacing: 1px;
 word-spacing: 5px;
-padding: 2px
+padding: 2px;
+text-decoration: none;
+
 }
 
 
