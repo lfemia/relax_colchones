@@ -4,8 +4,8 @@
   }
 
   body{ 
- background-color: #eec88c; 
- font-family: 'Roboto', sans-serif, serif;
+    background-color: #eec88c; 
+    font-family: 'Roboto', sans-serif, serif;
   }
 
     /*ENCABEZADO*/ 
@@ -37,16 +37,6 @@ header {
 
     }
     
-    /* h1{
-        font-size: 40px;
-    }
-
-    h2{
-        color: black;
-        font-size: 30px;   
-    } */
-
-       /*NAVEGACION*/
 
     .text-dark {
     font-family: 'Roboto', sans-serif, serif;
@@ -91,22 +81,29 @@ header {
     /*IMAGENES DE INICIO*/
 
     .seccionGaleria{
-        margin-top: 20px;
-        margin-bottom: 12em;
+        margin-top: 8em;
+        margin-bottom: 8em;
     }
     
     .seccion_imagen_titulo {
     font-family: 'Roboto';
-    margin: 5em;
+    margin: 3em;
     padding: 1em;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    font-weight: bold; 
+      }
 
-    }
+    .seccion_imagen_titulo h1 {
+    transition: all 5s;
+    font-family: 'MonteCarlo', cursive; 
+    font-size: 5em;
+          }
+    
     .seccion_imagenes_h{
     display: block;
-    font-size: 1.7em;
+    font-size: 1,7em;
     font-weight: bold;
     margin-block-start: 2em;
     margin-block-end: 2em;
@@ -125,12 +122,18 @@ header {
         width: 250px;
         transition: all 3s;  
     }
+
     
     .seccion_imagen_foto:hover {
-        height: 220px; width: 200px;
+        height: 220px; 
+        width: 200px;
         padding: 1.2rem;
      }
      
+     .seccion_imagen_foto--foto {
+         width: 250px;
+         height: 400px;
+     }
 
 
     /*SECCION ALMOHADAS*/ 
@@ -225,6 +228,7 @@ header {
     }
 
     .titulo-ventamayorista {
+        margin-top: 1em;
         font-size: 1.8em;
         font-weight: 2em;
         font-style: italic;
@@ -287,14 +291,14 @@ header {
     #cuadradoVentaMayorista {
         display: flex;
         justify-content: center;
-        margin-top: 10px;
-        margin-bottom: 50px;
+        margin-top: 3em;
+        margin-bottom: 5em;
         font-size: 2em;
         width: 1200px;
         height: 100px;
         background-color: #C2B8A3; 
         animation-name: animacion;
-        animation-duration: 6s;
+        animation-duration: 2s;
         position: relative; /*para que se mueva */
         animation-iteration-count: infinite; /*para que sea en loop el movimiento*/
         animation-direction: normal; 
@@ -304,7 +308,6 @@ header {
     @keyframes animacion {
     0% {width: 100px; background-color: #EDE574; left: 0; top: 0px; }
     25% {width: 50px; background-color: #E1F5C4;  left: 0; top:0 px; }
-    50% {background-color: #e7e07f; left: 300px; top: 0px; }
     100% {background-color: #f0e98c; left: 0px; top: 0px; }
     
     }
@@ -312,42 +315,25 @@ header {
 
     /*GRID SECCION COMBOS*/
 
-    .grid-container {
-        display: grid;
-        height: 600px;
-        grid-template-columns: auto auto auto auto;
-        grid-template-rows: auto auto auto auto;
-        justify-content: center;
-        align-content: center;
-
-    }
-    .grid-container div { 
-        background-color: #C2B8A3;
-        text-align: center;
-        color: black;
-        font-family: 'Roboto', sans-serif;
-        border: 1px solid black;
-    }
-
-    .grid_a { 
-    grid-area: 1/2/5/5;
-
-    }
-
-    .imagen-grid { 
-    border-radius: 10px;
-
+    .container__combos {    
+    margin-top: 3em;
+    margin-left: 0,5em;
+    margin-right: 0,5em;
     }
 
     /*FORMULARIO*/
-    #formulario{ 
-        width: 300px;
+    .container-formulario {
+        margin-top: 3em;
+
+    }
+
+    #formularioNosotros{
+        width: 600px;
         padding: 10px;
         padding-top: 20px;
         padding-bottom: 10px;
         margin: 0 auto;
         font-size: 15px;
-        max-width: 400px;
         background-color: #C2B8A3;
         border: double;
     }
@@ -397,20 +383,60 @@ header {
 
     }
 
+     /* MEDIOS DE PAGO  */
+
+     .seccion_pagos {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        
+    }
+
+    .seccion_pagos_imagen {
+        border-radius: 1px;
+        width: 300px;
+   
+    }
+
+    /* IMAGEN ENVIOS  */
+
+    .seccion__envios {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        
+    }
+
+    .seccion__envios-imagen {
+        border-radius: 4em;
+    }
+
 
 /*PIE DE PÁGINA FOOTER*/
     .footer-principal{
         background-color: #E6DDC6;
-        margin-top: 15em;
-        height: 5em;
+        margin-top: 5em;
+        height: 2em;
         clear: both;
         letter-spacing: 2px;
         word-spacing: 15px;
         text-align: center;
+        color: black;
+        position: relative
     }
     .footer-contactonegro{
         color: black;
     
+    }
+
+    .footer-redes {
+        margin-top: 1em;
+        margin-bottom: 0,5em;
+        padding: 1em;
     }
 
     /*GRID FOOTER*/ 
@@ -438,18 +464,31 @@ align-content: right;
 
 }
 
-.lista-footer li { 
-display: block;
-font-size: 12px;
-letter-spacing: 1px;
-word-spacing: 5px;
-padding: 2px;
-text-decoration: none;
+.lista-footer { 
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding: 2px;
+    text-decoration: none;
+    justify-content: center;
+    
+    }
 
+.lista-footer li { 
+    display: block;
+    font-size: 12px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    padding: 2px;
+    justify-content: center;
+    color: black
 }
 
 
 .grid__seccion--titulo {
+justify-content: center;
+align-content: center;
 width: 100%;
 margin-bottom: 1em;
 font-size: 15px;
