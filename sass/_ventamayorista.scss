@@ -1,0 +1,91 @@
+  /*SECCION VENTA MAYORISTA*/ 
+
+  #venta-mayorista {
+    background-image: linear-gradient(to left,#A19882 , #C2B8A3 , #E6DDC6 );
+    
+    }
+
+    .titulo-ventamayorista {
+        margin-top: 1em;
+        font-size: 1.8em;
+        font-weight: 2em;
+        font-style: italic;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        
+    }
+
+    .titulo_venta_mayorista{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        font-size: 1.5em;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .color_flex_venta_mayorista
+    {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: 30px;
+    padding: 20px;
+    
+    }
+    .color_flex_uno_mayorista {
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+
+    }    
+    .color_flex_dos_mayorista {
+    justify-content: center;
+    text-align: center;
+    }    
+    .color_flex_tres_mayorista {
+    justify-content: center;
+    text-align: center;
+    }    
+    .color_flex_cuatro_mayorista {
+    justify-content: center;
+    text-align: center;
+    }
+
+    .texto-venta-mayorista {
+     font-style: italic;
+    }
+
+    /*ANIMACIONES VENTA MAYORISTA*/
+
+    
+    #cuadradoVentaMayorista {
+        display: flex;
+        justify-content: center;
+        margin-top: 3em;
+        margin-bottom: 5em;
+        font-size: 2em;
+        width: 1200px;
+        height: 100px;
+        background-color: #C2B8A3; 
+        animation-name: animacion;
+        animation-duration: 2s;
+        position: relative; /*para que se mueva */
+        animation-iteration-count: infinite; /*para que sea en loop el movimiento*/
+        animation-direction: normal; 
+
+        }
+    
+    @keyframes animacion {
+    0% {width: 100px; background-color: #EDE574; left: 0; top: 0px; }
+    25% {width: 50px; background-color: #E1F5C4;  left: 0; top:0 px; }
+    100% {background-color: #f0e98c; left: 0px; top: 0px; }
+    
+    }

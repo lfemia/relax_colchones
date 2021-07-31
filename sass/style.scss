@@ -1,0 +1,38 @@
+$colorbg:#eec88c;
+
+@import "menu";
+@import "footer";
+@import "ventamayorista";
+@import "almohadas";
+@import "combos";
+@import "nosotros";
+@import "colchones";
+
+header {
+    background-color: $colorbg
+
+        }
+ 
+ .lista-footer { 
+        display: block;
+        font-size: 12px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        padding: 2px;
+        justify-content: center;        
+        }    
+        li { 
+        display: block;
+        font-size: 12px;
+        letter-spacing: 1px;
+        word-spacing: 5px;
+        padding: 2px;
+        justify-content: center;
+        color: black;
+        }
+        a {
+            text{
+                decoration:none;
+                transform: uppercase;
+                } 
+        }

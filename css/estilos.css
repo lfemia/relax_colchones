@@ -364,7 +364,7 @@ header {
     text-decoration: none;
     }
 
-    /*TABLA DE COLCHONES*/
+    /*COLCHONES*/
     .tituloColchones {
         margin: 1em;
         padding: 0,1em;
@@ -406,13 +406,16 @@ header {
         display: flex;
         justify-content: center;
         align-content: center;
-        margin-top: 2em;
-        margin-bottom: 2em;
+        padding: 5em;
+        margin-top: 0,5em;
+        margin-bottom: 1em;
         
     }
 
     .seccion__envios-imagen {
         border-radius: 4em;
+        width: 100%;
+        height: auto;
     }
 
 

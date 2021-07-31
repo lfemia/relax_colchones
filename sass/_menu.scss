@@ -1,0 +1,56 @@
+    /*ENCABEZADO*/ 
+    header { 
+        background-color: #FBF7F0;
+        color: black;
+        display: block;
+        width: 100%;
+        text-decoration: none;     
+    
+        }
+    
+        /*TITULOS*/
+    
+        .titulos-nav { 
+            font-family: 'MonteCarlo', cursive;
+            text-align: center;
+            color:black;
+    
+        }
+        .tituloUno { 
+            font-size: 5em;    
+        }    
+        .tituloDos {     
+        font-size: 2em;    
+        }      
+    
+        .text-dark {
+        font-family: 'Roboto', sans-serif, serif;
+        font-size: 3em;
+        font-style: oblique;
+           }
+        .nav-principal {
+            background-color: #E6DDC6;        
+            color: black;
+            font-size: 18px;
+            letter-spacing: 2px;
+            word-spacing: 15px;
+            padding: 20px;
+            text-align: center;    
+        }
+    
+            /*LISTA NAV*/
+    
+         ul li {
+            display: inline-block;
+            color: black;
+        }
+    
+    
+        .lista-nav {
+            transition: background-color .5s;
+            color: black;
+        }
+    
+        a:hover { 
+            background-color: gray; 
+        }

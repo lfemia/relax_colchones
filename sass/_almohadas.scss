@@ -1,0 +1,83 @@
+ /*SECCION ALMOHADAS*/ 
+    
+    /*LISTA ORDENADA ALMOHADAS*/
+    #listaOrdenada {
+        background-color: #A19882;
+        color: black;
+        margin: 20px;
+        
+    }
+    .titulo-lista-almohadas {
+        justify-content: center;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    /*IMAGENES Y COLOR FLEX ALMOHADAS*/
+    .titulo_almohadas{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+        display: flex;
+        font-size: 1.5em;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .color_flex_almohadas
+    {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+    
+    }
+    .color_flex_uno {
+    background-color: #C2B8A3;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+
+
+    }    
+
+    .color_flex_dos {
+    background-color: #A19882;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+
+
+    }    
+    .color_flex_tres {
+    background-color: #C2B8A3;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+
+
+    }    
+    .color_flex_cuatro {
+    background-color: #E6DDC6;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+
+    }
+
+    .titulo-p-almohadas {
+        font-size: 25px;
+        margin: 5px;
+    }

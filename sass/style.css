@@ -1,0 +1,440 @@
+@charset "UTF-8";
+/*ENCABEZADO*/
+header {
+  background-color: #FBF7F0;
+  color: black;
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+/*TITULOS*/
+.titulos-nav {
+  font-family: 'MonteCarlo', cursive;
+  text-align: center;
+  color: black;
+}
+
+.tituloUno {
+  font-size: 5em;
+}
+
+.tituloDos {
+  font-size: 2em;
+}
+
+.text-dark {
+  font-family: 'Roboto', sans-serif, serif;
+  font-size: 3em;
+  font-style: oblique;
+}
+
+.nav-principal {
+  background-color: #E6DDC6;
+  color: black;
+  font-size: 18px;
+  letter-spacing: 2px;
+  word-spacing: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*LISTA NAV*/
+ul li {
+  display: inline-block;
+  color: black;
+}
+
+.lista-nav {
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  color: black;
+}
+
+a:hover {
+  background-color: gray;
+}
+
+/*PIE DE PÁGINA FOOTER*/
+.footer-principal {
+  background-color: #E6DDC6;
+  margin-top: 5em;
+  height: 2em;
+  clear: both;
+  letter-spacing: 2px;
+  word-spacing: 15px;
+  text-align: center;
+  color: black;
+  position: relative;
+}
+
+.footer-contactonegro {
+  color: black;
+}
+
+.footer-redes {
+  margin-top: 1em;
+  margin-bottom: 0,5em;
+  padding: 1em;
+}
+
+/*GRID FOOTER*/
+.container-footer {
+  padding-right: 10px;
+  padding-left: 10px;
+  background-color: #E6DDC6;
+}
+
+.footer-grid {
+  display: -ms-grid;
+  display: grid;
+  background-color: #E6DDC6;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  padding: 1em;
+}
+
+.item-footer-grid-1 {
+  color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: right;
+      align-content: right;
+}
+
+.lista-footer {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  padding: 2px;
+  text-decoration: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.lista-footer li {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  padding: 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+}
+
+.grid__seccion--titulo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 100%;
+  margin-bottom: 1em;
+  font-size: 15px;
+  letter-spacing: 1px;
+  word-spacing: 0,2em;
+}
+
+/*SECCION VENTA MAYORISTA*/
+#venta-mayorista {
+  background-image: -webkit-gradient(linear, right top, left top, from(#A19882), color-stop(#C2B8A3), to(#E6DDC6));
+  background-image: linear-gradient(to left, #A19882, #C2B8A3, #E6DDC6);
+}
+
+.titulo-ventamayorista {
+  margin-top: 1em;
+  font-size: 1.8em;
+  font-weight: 2em;
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.titulo_venta_mayorista {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5em;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.color_flex_venta_mayorista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin: 30px;
+  padding: 20px;
+}
+
+.color_flex_uno_mayorista {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.color_flex_dos_mayorista {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.color_flex_tres_mayorista {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.color_flex_cuatro_mayorista {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.texto-venta-mayorista {
+  font-style: italic;
+}
+
+/*ANIMACIONES VENTA MAYORISTA*/
+#cuadradoVentaMayorista {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 3em;
+  margin-bottom: 5em;
+  font-size: 2em;
+  width: 1200px;
+  height: 100px;
+  background-color: #C2B8A3;
+  -webkit-animation-name: animacion;
+          animation-name: animacion;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  position: relative;
+  /*para que se mueva */
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  /*para que sea en loop el movimiento*/
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+}
+
+@-webkit-keyframes animacion {
+  0% {
+    width: 100px;
+    background-color: #EDE574;
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    width: 50px;
+    background-color: #E1F5C4;
+    left: 0;
+    top: 0 px;
+  }
+  100% {
+    background-color: #f0e98c;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes animacion {
+  0% {
+    width: 100px;
+    background-color: #EDE574;
+    left: 0;
+    top: 0px;
+  }
+  25% {
+    width: 50px;
+    background-color: #E1F5C4;
+    left: 0;
+    top: 0 px;
+  }
+  100% {
+    background-color: #f0e98c;
+    left: 0px;
+    top: 0px;
+  }
+}
+
+/*SECCION ALMOHADAS*/
+/*LISTA ORDENADA ALMOHADAS*/
+#listaOrdenada {
+  background-color: #A19882;
+  color: black;
+  margin: 20px;
+}
+
+.titulo-lista-almohadas {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/*IMAGENES Y COLOR FLEX ALMOHADAS*/
+.titulo_almohadas {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5em;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.color_flex_almohadas {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.color_flex_uno {
+  background-color: #C2B8A3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.color_flex_dos {
+  background-color: #A19882;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.color_flex_tres {
+  background-color: #C2B8A3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.color_flex_cuatro {
+  background-color: #E6DDC6;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.titulo-p-almohadas {
+  font-size: 25px;
+  margin: 5px;
+}
+
+/*GRID SECCION COMBOS*/
+.container__combos {
+  margin-top: 3em;
+  margin-left: 0,5em;
+  margin-right: 0,5em;
+}
+
+/*COLCHONES*/
+.tituloColchones {
+  margin: 1em;
+  padding: 0,1em;
+  font-family: 'Roboto';
+  font-style: bold;
+  -webkit-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+}
+
+.contenedor-colchones {
+  margin: 5em;
+  padding: 1em;
+}
+
+header {
+  background-color: #eec88c;
+}
+
+.lista-footer {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  padding: 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+li {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+  padding: 2px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: black;
+}
+
+a text {
+  decoration: none;
+  -webkit-transform: uppercase;
+          transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */
