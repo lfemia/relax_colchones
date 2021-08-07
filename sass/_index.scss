@@ -1,0 +1,75 @@
+/*IMAGENES DE INICIO*/
+
+.seccionGaleria {
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.seccion_imagen_titulo {
+  font-family: "Roboto";
+  margin: 3em;
+  padding: 1em;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.seccion_imagen_titulo h1 {
+  transition: all 5s;
+  font-family: "MonteCarlo", cursive;
+  font-size: 5em;
+}
+
+.seccion_imagenes_h {
+  display: block;
+  font-size: 1, 7em;
+  font-weight: bold;
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+}
+
+.seccion_imagen {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.seccion_imagen_foto {
+  width: 250px;
+  transition: all 3s;
+  span {
+  font-family: 'Roboto';
+  }
+}
+
+.seccion_imagen_foto:hover {
+background-color: gray;
+}
+
+.seccion_imagen_foto--foto {
+  width: 250px;
+  height: 400px;
+}
+
+
+
+/* IMAGEN ENVIOS  */
+
+.seccion__envios {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5em;
+  margin-top: 0, 5em;
+  margin-bottom: 1em;
+}
+
+.seccion__envios-imagen {
+  border-radius: 4em;
+  width: 100%;
+  height: auto;
+}
+
