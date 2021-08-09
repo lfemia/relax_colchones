@@ -507,6 +507,10 @@ a:hover {
   font-family: 'Roboto';
 }
 
+.titulo__nosotros {
+  margin-top: 2em;
+}
+
 #contactForm {
   -ms-flex-line-pack: right;
       align-content: right;
@@ -517,12 +521,7 @@ a:hover {
 .nosotros__mapa {
   margin-top: 2em;
   margin-bottom: 2em;
-  padding: 0.5em;
-}
-
-.nosotros__mapa div {
-  border: solid;
-  border-color: black;
+  padding: 2em;
 }
 
 .nosotros__mapa div iframe {
@@ -536,9 +535,26 @@ a:hover {
   margin-bottom: 1em;
 }
 
+.seccion__contacto_envios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+
 /*COLCHONES*/
 #body__colchones {
   font-family: 'Roboto';
+}
+
+.titulo__productos-colchones {
+  margin-top: 2em;
 }
 
 .tituloColchones {
@@ -565,7 +581,7 @@ a:hover {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  margin-top: 2em;
+  margin-top: 4em;
   margin-bottom: 2em;
 }
 

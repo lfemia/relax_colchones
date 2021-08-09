@@ -4,6 +4,11 @@
   font-family: 'Roboto';
 }
 
+
+.titulo__nosotros {
+  margin-top: 2em;
+}
+
 #contactForm {
   align-content: right;
   margin-top: 1em;
@@ -13,11 +18,8 @@
 .nosotros__mapa {
     margin-top: 2em;
     margin-bottom: 2em;
-    padding: 0.5em;
+    padding: 2em;
     div { 
-      border: solid;
-      border-color: black;
-
         iframe {
       width: 100%;
       height: 100%;
@@ -32,3 +34,13 @@
   margin-top: 1em;
   margin-bottom: 1em;
 }
+
+.seccion__contacto_envios { 
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+
+}
+
