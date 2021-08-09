@@ -4,23 +4,22 @@
   background-color: #e6ddc6;
   text-decoration: none;
   margin-top: 5em;
-  height: 2,5em;
+  height: 2.5em;
   clear: both;
-  letter-spacing: 2px;
-  word-spacing: 15px;
+  letter-spacing: 0.5px;
+  word-spacing: 1em;
   text-align: center;
   color: black;
   position: relative;
 }
 
 .footer-logo { 
-  font-family: 'Montecarlo';
+  font-family: 'Montecarlo', Arial, Helvetica, sans-serif;
   font-size: 2em;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
-.footer-contactonegro {
-  text-decoration: none;
+.footer__info {
   color: black;
   padding: 1em;
   margin-bottom: 2em;

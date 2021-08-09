@@ -1,4 +1,5 @@
 $colorbg: #eec88c;
+$family: 'Roboto';
 
 @import "menu";
 @import "footer";
@@ -8,7 +9,12 @@ $colorbg: #eec88c;
 @import "combos";
 @import "nosotros";
 @import "colchones";
-@import "mediosdepago"
+@import "mediosdepago";
+
+
+body { 
+  font-family: $family
+}
 
 header {
   background-color: $colorbg;
