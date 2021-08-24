@@ -17,4 +17,6 @@ de Buenos Aires. Es un negocio pequeño que se mantiene gracias al boca a boca d
 mayor alcance. 
 
 
-¡Gracias por leer!
+¡Muchas gracias por leer!
+
+Saludos
